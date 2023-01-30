@@ -1,0 +1,16 @@
+{
+  "name": "cypressapi",
+  "version": "1.0.0",
+  "description": "Automatizando testes do CRUD",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open":"cypress open",
+    "cypess:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "Allysr",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.4.1"
+  }
+}
