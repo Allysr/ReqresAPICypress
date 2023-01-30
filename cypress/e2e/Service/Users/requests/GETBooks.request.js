@@ -1,9 +1,10 @@
 /// <reference types="cypress" />
 
-export const allBooks = () => {
+const allBooks = () => {
     return cy.request({
         method: "GET",
         url: 'users/'
     })
 }
 
+export {allBooks}
