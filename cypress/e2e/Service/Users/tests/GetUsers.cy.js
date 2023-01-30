@@ -1,8 +1,8 @@
-import * as getBooks from "../requests/GETBooks.request";
+import * as getUsers from "../requests/GETUsers.request";
 
-describe("GET Books", () => {
-  it("Listar todos os livros", () => {
-    getBooks.allBooks().then((response) => {
+describe("GET all users", () => {
+  it("Listar todos os usuarios", () => {
+    getUsers.allUsers().then((response) => {
       cy.log(response.status);
       cy.log(response.statusText);
       cy.log(response.body);
