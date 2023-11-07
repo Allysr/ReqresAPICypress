@@ -11,7 +11,7 @@ describe("Delete User", () => {
     });
   });
 
-  it("Criar e excluir um livro", () => {
+  it("Criar e excluir um usuario", () => {
     postUser.createUsers().then((resAddUser) => {
       deleteUser.deleteUser(resAddUser.body.id).should((resDeleteUser) => {
         expect(resDeleteUser.status).to.eq(204);
