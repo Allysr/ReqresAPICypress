@@ -1,10 +1,6 @@
 <h1 align="center">
-<br> Estudo de Cypress
+<br> Estudo de testes de API com cypress
 </h1>
-
-<h4 align="center">
-  Aprendendo a fazer testes de API com cypress.
-</h4>
 <br>
 
 #### 🔖 Como executar o projeto:
