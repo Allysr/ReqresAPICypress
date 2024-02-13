@@ -6,6 +6,16 @@
   Aprendendo a fazer testes de API com cypress.
 </h4>
 <br>
+
+#### 🔖 Como executar o projeto:
+```diff 
+• git clone 
+• cd reqresApiCypress
+• npm install
+• npm run cypress:run
+````
+
+
+<br>
 Site utilizado: https://reqres.in/
 
-<h1>
